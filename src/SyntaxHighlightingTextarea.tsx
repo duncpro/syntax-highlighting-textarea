@@ -91,6 +91,7 @@ export const SyntaxHighlightingTextarea = (
     const defaultContainerStyle: CSSProperties = {
         // Since the textarea's font color is made transparent, the cursor must be explicitly reset to black.
         caretColor: 'black',
+        position: 'relative'
     }
 
     return (
